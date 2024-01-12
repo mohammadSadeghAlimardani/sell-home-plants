@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/reset.css"/>
+        <link rel="stylesheet" href="./flickity/flickity.css"/>
+        <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.min.css"/>
+        <link rel="stylesheet" href="./css/style.css"/>
+    </head>
+    <body>
+        <nav class="top-nav">
+            <ul>
+                <li class="logo">
+                    <a href="#">
+                        <h1>
+                            <i class="fa-solid fa-leaf"></i>
+                            greener
+                        </h1>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="active-link">
+                    <a href="#">home</a>
+                </li>
+                <li>
+                    <a href="#">services</a>
+                </li>
+                <li>
+                    <a href="#">blogs</a>
+                </li>
+                <li>
+                    <a href="#">pricing</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="search" name="search" id="search" placeholder="&#128269;"/>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-regular fa-user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </li>
+                <li class="show-sidebar">
+                    <a href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <ul>
+                    <li class="logo">
+                        <a href="#">
+                            <h1>
+                                <i class="fa-solid fa-leaf"></i>
+                                greener
+                            </h1>
+                        </a>
+                    </li>
+                    <li class="close-btn">
+                        <a href="#">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-body">
+                <ul>
+                    <li class="active-link">
+                        <a href="#">home</a>
+                    </li>
+                    <li>
+                        <a href="#">services</a>
+                    </li>
+                    <li>
+                        <a href="#">blogs</a>
+                    </li>
+                    <li>
+                        <a href="#">pricing</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-footer">        
+                <input type="search" name="search" id="search" placeholder="&#128269;"/>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <header>
+            <article class="header-info">
+                <h2>life is more <span>green</span> with <span>greener</span></h2>
+                <h5>stay positive, stay green</h5>
+                <button class="btn btn-success"><span>discover</span> <i class="fas fa-arrow-right"></i></button>
+            </article>
+            <article class="header-image">
+                <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                    <div class="carousel-cell"></div>
+                    <div class="carousel-cell"></div>
+                    <div class="carousel-cell"></div>
+                    <div class="carousel-cell"></div>
+                </div>
+            </article>
+        </header>
+        <div class="trending-items">
+            <h2>trending items</h2>
+            <section>
+                <article>
+                    <img src="./images/trend-item-image-1.jpg" alt="plants"/>
+                    <h3 class="trend-item-info">indoor plants</h3>
+                </article>
+                <article>
+                    <img src="./images/trend-item-image-2.jpg" alt="plants"/>
+                    <h3 class="trend-item-info">healthy for environment plant</h3>
+                </article>
+                <article>
+                    <img src="./images/trend-item-image-3.jpg" alt="plants"/>
+                    <h3 class="trend-item-info">outdoor plants</h3>
+                </article>
+            </section>
+        </div>
+        <div class="about-us">
+            <h2>about us</h2>
+            <section> 
+                <img src="./images/about-us-image.jpg" alt="plants"/>
+                <p class="about-us-text">
+                        Welcome to Greener, where our passion for greenery meets your desire
+                        to cultivate a thriving botanical haven. At the heart of our mission
+                        is a commitment to bringing the beauty of nature into your home,
+                        effortlessly intertwining wellness and aesthetics. Greener is your
+                        nurturing companion, dedicated to helping you cultivate a life rich
+                        in green inspiration.
+                </p>
+            </section>
+        </div>
+        <div class="our-subscription-plants">
+            <h2>our subscription plants</h2>
+            <section>
+                <article class="subscription-item">
+                    <h3 class="type">free</h3>
+                    <h2 class="price">$ 0</h2>
+                    <ul class="facilities">
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>botanical essentials</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>limited access to premium content</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>everyday contents updates</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary">start</button>
+                </article>
+                <article class="subscription-item">
+                    <h3 class="type">mounthly</h3>
+                    <h2 class="price">$ 9</h2>
+                    <ul class="facilities">
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>expended plant library</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>exclusive content & workshops</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>everyday contents updates</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>priority customer support</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>faster process</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary">start</button>
+                </article>
+                <article class="subscription-item">
+                    <h3 class="type">yearly</h3>
+                    <h2 class="price">$ 50</h2>
+                    <ul class="facilities">
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>unlimitted access to premium features</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>personalized garden planner</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>everyday contents updates</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>analytics</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary">start</button>
+                </article>
+            </section>
+        </div>
+        <div class="customer-review">
+            <h2>customer reviews & ratings</h2>
+            <section>
+                <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                    <div class="carousel-cell">      
+                        <img src="./images/customer-image-1.jpg" alt="customer-profile"/> 
+                        <p class="customer-comment">                   
+                            "Its been 2 years iam using Greener to decorate my
+                             house with plants and iam fully satisfied.”              
+                        </p>
+                        <ul class="customer-rating" data-satisfy="3">    
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>   
+                        </ul>
+                        <h3 class="customer-username">khaled jubair abbasi</h3>
+                    </div>
+                    <div class="carousel-cell">      
+                        <img src="./images/customer-image-2.jpg" alt="customer-profile"/> 
+                        <p class="customer-comment">                   
+                            "very good but delivery is not fast”              
+                        </p>
+                        <ul class="customer-rating" data-satisfy="4">    
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>   
+                        </ul>
+                        <h3 class="customer-username">kim min jae</h3>
+                    </div>
+                    <div class="carousel-cell">      
+                        <img src="./images/customer-image-3.jpg" alt="customer-profile"/> 
+                        <p class="customer-comment">                   
+                            "not bad”              
+                        </p>
+                        <ul class="customer-rating" data-satisfy="2">    
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>   
+                        </ul>
+                        <h3 class="customer-username">john parker</h3>
+                    </div>
+                    <div class="carousel-cell">      
+                        <img src="./images/customer-image-4.jpg" alt="customer-profile"/> 
+                        <p class="customer-comment">                   
+                            "I am very satsified they are the best”              
+                        </p>
+                        <ul class="customer-rating" data-satisfy="5">    
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>   
+                        </ul>
+                        <h3 class="customer-username">peter jordan</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="find-us">
+            <div class="container">
+                <article class="social-icons">
+                    <h2>find us on:</h2>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article class="join-newsletter">
+                    <h2>join our newsletter</h2>
+                    <form>
+                        <input type="email" name="email" id="email" placeholder="Email"/>
+                        <button type="submit" class="btn btn-success">subscribe</button>
+                    </form>
+                </article>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <ul>
+                    <h2>contact us</h2>
+                    <li>                    
+                        <i class="fa-solid fa-location-dot"></i>    
+                        <section>
+                            <h5 class="title">address</h5>
+                            <h5 class="info">dhaka, bangladesh</h5>
+                        </section>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-at"></i>
+                        <section>
+                            <h5 class="title">email us</h5>
+                            <h5 class="info">janina@gmail.com</h5>
+                        </section>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <section>
+                            <h5 class="title">call us</h5>
+                            <h5 class="info">09837556293944</h5>
+                        </section>
+                    </li>
+                </ul>
+                <ul>
+                    <h2>other informations</h2>
+                    <li>                    
+                        <a href="#">privacy policy</a>
+                    </li>
+                    <li>
+                        <a href="#">teams & conditions</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                </ul>
+                <ul>
+                    <h2>we accept:</h2>
+                    <li>                    
+                        <i class="fa-brands fa-cc-visa"></i>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-credit-card"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-money-bill"></i>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="./flickity/flickity.pkgd.min.js"></script>
+        <script src="./app.js"></script>
+    </body>
+</html>
